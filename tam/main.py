@@ -9,8 +9,8 @@ import requests
 import re
 
 # -- Ganti dengan API KEY Gemini-mu
-GEMINI_API_KEY = "ISI_API_KEY_GEMINI_MU"
-GEMINI_ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro:generateContent?key={GEMINI_API_KEY}"
+GEMINI_API_KEY = "AIzaSyCdYhVj5eb8kOMlsWBPsW7To6lz_qPH4Go"
+GEMINI_ENDPOINT = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
 
 # -- SQLite biar mudah deploy & GRATIS
 DB_URL = "sqlite:///./db.sqlite3"
